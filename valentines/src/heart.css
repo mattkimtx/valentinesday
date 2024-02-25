@@ -1,0 +1,25 @@
+.heart {
+     display: inline-block;
+     width: 200px;
+     aspect-ratio: 1;
+     border-image: radial-gradient(red 69%, #0000 70%) 84.5%/50%;
+     clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+     animation: heart-spin 2s linear infinite;
+}
+
+.heart2 {
+     display: inline-block;
+     width: 200px;
+     aspect-ratio: 1;
+     border-image: radial-gradient(red 69%, #0000 70%) 84.5%/50%;
+     clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+}
+
+@keyframes heart-spin {
+     from {
+       transform: rotate(0deg);
+     }
+     to {
+       transform: rotate(360deg);
+     }
+}
